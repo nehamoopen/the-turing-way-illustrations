@@ -9,7 +9,7 @@ zenodo <- ZenodoManager$new(logger = "INFO")
 zenodo <- ZenodoManager$new()
 
 zenodo <- ZenodoManager$new(
-  token = "PeETiaMQv2lY7ICVfGwSoFQ1zZXilf74eZVenZ02lcAmDYMmS9Lrj8EulsXR", 
+  token = "", 
   logger = "INFO" # use "DEBUG" to see detailed API operation logs, use NULL if you don't want logs at all
 )
 
