@@ -1,15 +1,13 @@
 library(stringr)
+library(purrr)
 library(readr)
 
 path <- list.files("images", pattern = "*.jpg", full.names = TRUE) 
 
-name <- str_remove_all(path, "images/|\\.jpg") 
-
-name <- str_replace_all(name, "-", " ")
-
-name <- str_replace_all(name, "([a-z])([A-Z])", "\\1 \\2")
-
-name <- tolower(name)
+name <- str_remove_all(path, "images/|\\.jpg") %>%
+        str_replace_all("-", " ") %>% 
+        str_replace_all("([a-z])([A-Z])", "\\1 \\2") %>%
+        tolower()
 
 illustrations <- data.frame(name, path)
 
