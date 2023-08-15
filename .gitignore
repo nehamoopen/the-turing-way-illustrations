@@ -1,6 +1,7 @@
-images/zip-files/
+images/zip-files
 *.zip
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
