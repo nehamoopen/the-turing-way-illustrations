@@ -53,4 +53,8 @@ for (i in 1:nrow(images_paths)) {
 
 file.remove(images_current_paths)
 
+### -------- TEST
 
+files_names <- lapply(zip_file_paths, unzip, list = TRUE)
+
+files_names_filtered <- lapply(files_names, filter(str_detect(files_names[["Name"]], ".jpg")))
