@@ -1,12 +1,11 @@
-# install.packages("zen4R")
-
-# require("remotes")
-# install_github("eblondel/zen4R")
+# load packages
 
 library(zen4R)
 library(dplyr)
 library(stringr)
 library(purrr)
+
+# connect to zenodo and get record by doi
 
 zenodo <- ZenodoManager$new(logger = "INFO")
 
@@ -15,13 +14,14 @@ rec <- zenodo$getRecordByDOI("10.5281/zenodo.6821117")
 files <- rec$listFiles(pretty = TRUE) %>%
          filter(str_detect(filename, "AllJPG-English-text.zip"))
 
-#create a folder where to download my files
+# create a folder where to download the zip files
 
 dir.create("images")
 dir.create("images/zip-files")
 
 # download files
-# set timeout option with `options(timeout=300)` and double-check it with `getOption('timeout')`
+
+options(timeout=300)
 
 for(i in seq_len(nrow(files))) {
   download.file(url = files$download[i], 
@@ -34,37 +34,7 @@ for(i in seq_len(nrow(files))) {
 zip_file_paths <- list.files("images/zip-files", full.names = TRUE)
 
 for(i in zip_file_paths) {
-  unzip(i, exdir = "images/zip-files")
+  unzip(i, junkpaths = TRUE, exdir = "images")
 }
 
-unlink("images/zip-files/__MACOSX", recursive = TRUE)
-
-# move illustrations to images
-
-images_current_paths <- list.files("images/zip-files", pattern = "*.jpg", recursive = TRUE, full.names = TRUE)
-
-images_final_paths <- images_current_paths %>%
-                      str_remove_all("zip-files/zz-TheTuringWay-previous-Scriberia-2022-Jun-AllJPG-English-text/")
-
-images_paths <- data.frame(images_current_paths, images_final_paths)
-
-for (i in 1:nrow(images_paths)) {
-  file.rename(images_paths$images_current_paths[i], images_paths$images_final_paths[i])
-}
-
-file.remove(images_current_paths)
-
-### -------- TEST
-
-files_names <- lapply(zip_file_paths, unzip, list = TRUE)
-
-files_names_filtered_2 <- lapply(files_names, function(x) filter(x,
-                                                               str_detect(x[["Name"]], ".jpg"),
-                                                               !str_detect(x[["Name"]], "MACOSX")))
-
-lapply(files_names_filtered_2, function(x) unzip(x[["Name"]], exdir = "test"))
-
-for(i in zip_file_paths) {
-  unzip(i, junkpaths = TRUE, exdir = "test")
-}
-
+# ------------------------------------------------------------------------------
