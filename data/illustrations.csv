@@ -1,0 +1,168 @@
+name;path
+acknowledge authors;images/acknowledge-authors.jpg
+advocacy;images/advocacy.jpg
+ai fairness;images/ai-fairness.jpg
+ai for research;images/ai-for-research.jpg
+analysis workflow;images/analysis-workflow.jpg
+archive or publish;images/archive-or-publish.jpg
+article types;images/article-types.jpg
+astropy scosystem;images/astropy-scosystem.jpg
+autspaces research workflow;images/autspaces-research-workflow.jpg
+autspaces;images/autspaces.jpg
+banner congratulations;images/BannerCongratulations.jpg
+banner thanks;images/BannerThanks.jpg
+banner welcome;images/BannerWelcome.jpg
+binder hub;images/BinderHub.jpg
+birds of open data;images/birds-of-open-data.jpg
+bug catching;images/BugCatching.jpg
+bugs are features;images/BugsAreFeatures.jpg
+citizen science;images/citizen-science.jpg
+code publication;images/code-publication.jpg
+collaboration house;images/collaboration-house.jpg
+collaboration types;images/collaboration-types.jpg
+collaboration;images/Collaboration.jpg
+collaborative policy;images/collaborative-policy.jpg
+commercial infrastrcuture;images/commercial-infrastrcuture.jpg
+communicate widely;images/communicate-widely.jpg
+communication styles;images/communication-styles.jpg
+community exchange;images/community-exchange.jpg
+community managers;images/community-managers.jpg
+community;images/Community.jpg
+community network;images/CommunityNetwork.jpg
+continuous integration;images/ContinuousIntegration.jpg
+contributing;images/Contributing.jpg
+culture shift;images/CultureShift.jpg
+data management plan;images/data-management-plan.jpg
+data manager;images/data-manager.jpg
+data mining;images/data-mining.jpg
+data safe haven;images/data-safe-haven.jpg
+data stewards;images/data-stewards.jpg
+data are people;images/DataArePeople.jpg
+data ecosystem;images/DataEcosystem.jpg
+data equalspeople;images/DataEqualspeople.jpg
+data is people;images/DataIsPeople.jpg
+data stewards;images/DataStewards.jpg
+decentralised decision;images/decentralised-decision.jpg
+decolonising knowledge;images/DecolonisingKnowledge.jpg
+detecting harmful contents;images/detecting-harmful-contents.jpg
+digital twin;images/digital-twin.jpg
+distributed collaboration;images/DistributedCollaboration.jpg
+documentation;images/documentation.jpg
+doi;images/DOI.jpg
+engaging with unions;images/engaging-with-unions.jpg
+environmental data science;images/environmental-data-science.jpg
+error management;images/ErrorManagement.jpg
+ethical research;images/EthicalResearch.jpg
+ethics committee;images/ethics-committee.jpg
+ethics self reflection;images/ethics-self-reflection.jpg
+evolution open research;images/EvolutionOpenResearch.jpg
+evolution open science;images/EvolutionOpenScience.jpg
+faircook book;images/FAIRCookBook.jpg
+fairdomains;images/FAIRDomains.jpg
+fairprinciples;images/FAIRPrinciples.jpg
+file management digital;images/file-management-digital.jpg
+file management manual;images/file-management-manual.jpg
+fireside chat;images/fireside-chat.jpg
+first pull request;images/FirstPullRequest.jpg
+fixing links;images/FixingLinks.jpg
+fountain of open data;images/fountain-of-open-data.jpg
+github actions;images/github-actions.jpg
+github workflow;images/github-workflow.jpg
+github zenodo;images/github-zenodo.jpg
+global collaboration;images/global-collaboration.jpg
+goatheard 1;images/goatheard-1.jpg
+goatheard 2;images/goatheard-2.jpg
+handbook for application;images/handbook-for-application.jpg
+happy holidays;images/HappyHolidays.jpg
+healthcare data;images/healthcare-data.jpg
+healthy research tree;images/healthy-research-tree.jpg
+healthy leadership;images/HealthyLeadership.jpg
+hidden labor;images/hidden-labor.jpg
+human rights;images/HumanRights.jpg
+hybrid work;images/hybrid-work.jpg
+integrating practices;images/integrating-practices.jpg
+jupyter process;images/jupyter-process.jpg
+jupyter;images/Jupyter.jpg
+legal challenges;images/legal-challenges.jpg
+legal restrictions;images/LegalRestrictions.jpg
+logo detail with text;images/LogoDetailWithText.jpg
+logo no detail no text;images/LogoNoDetailNoText.jpg
+logo no detail with text;images/LogoNoDetailWithText.jpg
+low traffic tool;images/low-traffic-tool.jpg
+machine learning;images/machine-learning.jpg
+machine learning reusable pipeline;images/MachineLearningReusablePipeline.jpg
+machine readable;images/MachineReadable.jpg
+mentored contributions;images/MentoredContributions.jpg
+mountain of engagement;images/mountain-of-engagement.jpg
+no issue no users;images/NoIssueNoUsers.jpg
+notifications and surveillence;images/NotificationsAndSurveillence.jpg
+open governance;images/open-governance.jpg
+open publishing;images/open-publishing.jpg
+open vs close research;images/open-vs-close-research.jpg
+orcid ids;images/OrcidIDs.jpg
+outreach;images/Outreach.jpg
+pandoc;images/Pandoc.jpg
+participatory research;images/participatory-research.jpg
+peer review process;images/peer-review-process.jpg
+peer review;images/peer-review.jpg
+people find solutions;images/people-find-solutions.jpg
+personas;images/Personas.jpg
+private data;images/PrivateData.jpg
+project design;images/project-design.jpg
+project life cycle;images/project-life-cycle.jpg
+project roadmap;images/project-roadmap.jpg
+project design;images/ProjectDesign.jpg
+project history;images/ProjectHistory.jpg
+provenance;images/Provenance.jpg
+publishing reproducibility;images/publishing-reproducibility.jpg
+rdm storage;images/rdm-storage.jpg
+readable code;images/ReadableCode.jpg
+recognition;images/recognition.jpg
+remote collaboration;images/remote-collaboration.jpg
+remote book dash;images/RemoteBookDash.jpg
+reproducible pipeline;images/reproducible-pipeline.jpg
+reproducible definition grid;images/ReproducibleDefinitionGrid.jpg
+reproducible journey;images/ReproducibleJourney.jpg
+research application managers;images/research-application-managers.jpg
+research communities;images/research-communities.jpg
+research evaluation;images/research-evaluation.jpg
+research foundation;images/research-foundation.jpg
+research object;images/research-object.jpg
+research outputs;images/research-outputs.jpg
+research compendium;images/ResearchCompendium.jpg
+research cycle;images/ResearchCycle.jpg
+researchers environment;images/researchers-environment.jpg
+research tools;images/ResearchTools.jpg
+reusability loop;images/reusability-loop.jpg
+reusable code garden;images/reusable-code-garden.jpg
+road to reproducibility;images/RoadToReproducibility.jpg
+rse community;images/rse-community.jpg
+science society;images/science-society.jpg
+self reflection values;images/self-reflection-values.jpg
+sensitive data;images/sensitive-data.jpg
+share work;images/share-work.jpg
+skill spectrum;images/skill-spectrum.jpg
+software credit;images/software-credit.jpg
+software library feedback;images/SoftwareLibraryFeedback.jpg
+storage archiving;images/storage-archiving.jpg
+sustainability path;images/sustainability-path.jpg
+thank you;images/thank-you.jpg
+thank you;images/ThankYou.jpg
+that could be achapter;images/ThatCouldBeAChapter.jpg
+the turing way acknowledgement;images/TheTuringWayAcknowledgement.jpg
+the turing way chapters;images/TheTuringWayChapters.jpg
+the turing way consistency;images/TheTuringWayConsistency.jpg
+too easy not to do;images/TooEasyNotToDo.jpg
+translation memory;images/translation-memory.jpg
+translation workflow;images/translation-workflow.jpg
+translation;images/Translation.jpg
+turing rss;images/turing-rss.jpg
+turing way path;images/turing-way-path.jpg
+turing way story;images/turing-way-story.jpg
+turing way vision;images/turing-way-vision.jpg
+turing way pathway;images/TuringWayPathway.jpg
+unionise;images/unionise.jpg
+utility vs privacy;images/utility-vs-privacy.jpg
+version control;images/VersionControl.jpg
+whistleblower authority;images/whistleblower-authority.jpg
+whistleblower;images/whistleblower.jpg

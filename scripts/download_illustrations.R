@@ -3,7 +3,6 @@
 library(zen4R)
 library(dplyr)
 library(stringr)
-library(purrr)
 
 # connect to zenodo and get record by doi
 
@@ -14,12 +13,12 @@ rec <- zenodo$getRecordByDOI("10.5281/zenodo.6821117")
 files <- rec$listFiles(pretty = TRUE) %>%
          filter(str_detect(filename, "AllJPG-English-text.zip"))
 
-# create a folder where to download the zip files
+# create directories for files
 
 dir.create("images")
 dir.create("images/zip-files")
 
-# download files
+# download zip files
 
 options(timeout=300)
 
